@@ -1,0 +1,30 @@
+All keywords are written in lower-case.
+
+public static void main(String [] args) 
+
+A Null reference may be used to access a static variable or method.
+
+you cannot compare a boolean and an interger
+
+abstraction hides complexity
+
+information hiding=encapsulation
+
+Unlike class members, local variables of methods must be assigned a value to before they are accessed, or it is a compile error.
+
+Unlike C++, use of non boolean variables in place of bool is not allowed
+
+static block is used to initialize the static data member.It is executed before main method at the time of loading of a class.
+
+Dynamic binding uses object information for binding.
+
+Synchronization is the capability to control the access of multiple threads to shared resources. synchronized keyword in java provides locking which ensures mutual exclusive access of shared resource and prevent data race.
+
+StringBuffer is thread safe.
+
+When Java is compiled, it is not compiled into platform specific machine, rather into platform independent byte code. This byte code is distributed over the web and interpreted by virtual Machine (JVM) on whichever platform it is being run.
+
+Default value of byte datatype is 0.
+
+Default value of float and double datatype in different as compared to C/C++. For float its 0.0f and for double it’s 0.0d
+
