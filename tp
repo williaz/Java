@@ -1,0 +1,66 @@
+Byte data type is an 8-bit signed two's complement integer.
+Short data type is a 16-bit signed two's complement integer.
+Int data type is a 32-bit signed two's complement integer.
+Long data type is a 64-bit signed two's complement integer.
+Float data type is a single-precision 32-bit IEEE 754 floating point
+double data type is a double-precision 64-bit IEEE 754 floating point.
+boolean data type represents one bit of information.
+char data type is a single 16-bit Unicode character.
+
+Local variables are declared in methods, constructors, or blocks. Access modifiers cannot be used for local variables. Local variables are implemented at stack level internally. There is no default value for local variables so local variables should be declared and an initial value should be assigned before the first use.
+Instance variables are declared in a class, but outside a method, constructor or any block. When a space is allocated for an object in the heap, a slot for each instance variable value is created. Access modifiers can be given for instance variables. Instance variables have default values. For numbers the default value is 0, for Booleans it is false and for object references it is null. Values can be assigned during the declaration or within the constructor
+Class variables also known as static variables are declared with the static keyword in a class, but outside a method, constructor or a block. There would only be one copy of each class variable per class, regardless of how many objects are created from it. 
+
+Access Control Modifiers:
+Visible to the package, the default. No modifiers are needed.
+Visible to the class only (private).
+Visible to the world (public).
+Visible to the package and all subclasses (protected).
+
+Non Access Modifiers:
+The static modifier for creating class methods and variables
+The final modifier for finalizing the implementations of classes, methods, and variables.
+The abstract modifier for creating abstract classes and methods.
+The synchronized and volatile modifiers, which are used for threads.
+
+Category 	Operator 	Associativity 
+Postfix 	() [] . (dot operator)	Left toright 
+Unary 	++ - - ! ~	Right to left 
+Multiplicative  	* / % 	Left to right 
+Additive  	+ - 	Left to right 
+Shift  	>> >>> <<  	Left to right 
+Relational  	> >= < <=  	Left to right 
+Equality  	== != 	Left to right 
+Bitwise AND 	& 	Left to right 
+Bitwise XOR 	^ 	Left to right 
+Bitwise OR 	| 	Left to right 
+Logical AND 	&& 	Left to right 
+Logical OR 	|| 	Left to right 
+Conditional 	?: 	Right to left 
+Assignment 	= += -= *= /= %= >>= <<= &= ^= |= 	Right to left 
+
+to use objects instead of primitive data types. In-order to achieve this Java provides wrapper classes. All the wrapper classes (Integer, Long, Byte, Double, Float, Short) are subclasses of the abstract class Number. he Number class is part of the java.lang package. boxing unboxing
+
+Character ch = new Character('a');
+
+Using String's static format() method allows you to create a formatted string that you can reuse, as opposed to a one-time print statement. 
+
+Java provides a data structure, the array, which stores a fixed-size sequential collection of elements of the same type. 
+
+int[] result = new int[list.length]; function(new int[]{3, 1, 2, 6, 4, 2});
+
+Java provides the Date class available in java.util package, this class encapsulates the current date and time.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
