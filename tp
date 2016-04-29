@@ -51,8 +51,26 @@ int[] result = new int[list.length]; function(new int[]{3, 1, 2, 6, 4, 2});
 
 Java provides the Date class available in java.util package, this class encapsulates the current date and time.
 
+Checked exceptions: A checked exception is an exception that occurs at the compile time, these are also called as compile time exceptions. 
 
+Unchecked exceptions: An Unchecked exception is an exception that occurs at the time of execution, these are also called as Runtime Exceptions, these include programming bugs, such as logic errors or improper use of an API.
 
+Errors: These are not exceptions at all, but problems that arise beyond the control of the user or the programmer. Errors are typically ignored in your code because you can rarely do anything about an error. 
+
+Generally when we use any resources like streams, connections etc.. we have to close them explicitly using finally block. 
+
+All exceptions must be a child of Throwable.
+
+if we have the class as a member of other class, then the inner class can be made private. And this is also used to access the private members of a class.
+
+In Java, we can write a class within a method and this will be a local type. Like local variables, the scope of the inner class is restricted within the method. A method-local inner class can be instantiated only within the method where the inner class is defined. 
+
+When a class implements an interface, you can think of the class as signing a contract, agreeing to perform the specific behaviors of the interface. If a class does not perform all the behaviors of the interface, the class must declare itself as abstract.
+
+A class uses the implements keyword to implement an interface. The implements keyword appears in the class declaration following the extends portion of the declaration.
+
+A class can extend only one class, but implement many interfaces. An interface can extend another interface, similarly to the way that a class can extend another class.
+public interface Hockey extends Sports, Event
 
 
 
