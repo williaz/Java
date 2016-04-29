@@ -28,3 +28,18 @@ Default value of byte datatype is 0.
 
 Default value of float and double datatype in different as compared to C/C++. For float its 0.0f and for double it’s 0.0d
 
+A lower precision can be assigned to a higher precision value in Java.
+
+Identifiers must start with a letter, a currency character ($), or a connecting character such as the underscore ( _ ).
+
+An aggregate object is one which contains other objects.
+
+The constructor of a class must not have a return type.
+
+Assertions (by way of the assert keyword) were added in Java 1.4. They are used to verify the correctness of an invariant in the code. They should never be triggered in production code, and are indicative of a bug or misuse of a code path. 
+
+protected makes the method available to all classes in the same package and to all the subclasses of this class.
+
+A top level class may have only the following access modifier: public
+
+
