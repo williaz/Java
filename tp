@@ -72,10 +72,41 @@ A class uses the implements keyword to implement an interface. The implements ke
 A class can extend only one class, but implement many interfaces. An interface can extend another interface, similarly to the way that a class can extend another class.
 public interface Hockey extends Sports, Event
 
+The condition in assert statement must be followed by a semi-colon.
 
 
+Java Language Keywords:///
+
+abstract	continue	for	new	switch
+assert***	default	goto*	package	synchronized
+boolean	do	if	private	this
+break	double	implements	protected	throw
+byte	else	import	public	throws
+case	enum****	instanceof	return	transient
+catch	extends	int	short	try
+char	final	interface	static	void
+class	finally	long	strictfp**	volatile
+const*	float	native	super	while
+*	 	not used
+**	 	added in 1.2
+***	 	added in 1.4
+****	 	added in 5.0
+
+OOP-------
+A subclass inherits all the members (fields, methods, and nested classes) from its superclass. Constructors are not members, so they are not inherited by subclasses, but the constructor of the superclass can be invoked from the subclass.
 
 
+When do you use Java's @Override annotation and why?
+Use it every time you override a method for two benefits. Do it so that you can take advantage of the compiler checking to make sure you actually are overriding a method when you think you are. This way, if you make a common mistake of misspelling a method name or not correctly matching the parameters, you will be warned that you method does not actually override as you think it does. Secondly, it makes your code easier to understand because it is more obvious when methods are overwritten.
+
+like wise in Object oriented programming Abstraction is a process process of hiding the implementation details from the user, only the functionality will be provided to the user.
+Abstract classes may or may not contain abstract methods ie., methods with out body ( public void get(); )
+But, if a class have at least one abstract method, then the class must be declared abstract.
+If a class is declared abstract it cannot be instantiated.
+
+Instead of curly braces an abstract method will have a semoi colon ( ; ) at the end.
+
+Encapsulation is one of the four fundamental OOP concepts. The other three are inheritance, polymorphism, and abstraction.
 
 
 
