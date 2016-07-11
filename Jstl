@@ -1,0 +1,13 @@
+<dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>jstl</artifactId>
+    <version>1.2</version>
+</dependency>
+
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+
+<c: out>
+The <c:out> tag displays the result of an expression, similar to the way <%= %> works with a difference that <c:out> tag lets you use the simpler "." notation to access properties. For example, to access customer.address.street just use tag is <c:out value="customer.address.street"/>.
+The <c:out> tag can automatically escape XML tags so they aren't evaluated as actual tags.
+
+
