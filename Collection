@@ -36,5 +36,7 @@ One thing worth keeping in mind about HashSet is that iteration is linear in the
 
 The HashSet class has one other tuning parameter called the load factor, If you care a lot about the space consumption of your HashSet. LinkedHashSet has the same tuning parameters as HashSet, but iteration time is not affected by capacity. TreeSet has no tuning parameters.
 
+LIST:
 
+There are two general-purpose List implementations — ArrayList and LinkedList. Most of the time, you'll probably use ArrayList, which offers constant-time positional access and is just plain fast. It does not have to allocate a node object for each element in the List, and it can take advantage of System.arraycopy when it has to move multiple elements at the same time. Think of ArrayList as Vector without the synchronization overhead.
 
