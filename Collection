@@ -40,3 +40,18 @@ LIST:
 
 There are two general-purpose List implementations — ArrayList and LinkedList. Most of the time, you'll probably use ArrayList, which offers constant-time positional access and is just plain fast. It does not have to allocate a node object for each element in the List, and it can take advantage of System.arraycopy when it has to move multiple elements at the same time. Think of ArrayList as Vector without the synchronization overhead.
 
+If you frequently add elements to the beginning of the List or iterate over the List to delete elements from its interior, you should consider using LinkedList. These operations require constant-time in a LinkedList and linear-time in an ArrayList. But you pay a big price in performance. Positional access requires linear-time in a LinkedList and constant-time in an ArrayList. Furthermore, the constant factor for LinkedList is much worse. 
+
+ArrayList has one tuning parameter — the initial capacity, which refers to the number of elements the ArrayList can hold before it has to grow.
+
+If you need synchronization, a Vector will be slightly faster than an ArrayList synchronized with Collections.synchronizedList. But Vector has loads of legacy operations, so be careful to always manipulate the Vector with the List interface or else you won't be able to replace the implementation at a later time.
+
+MAP:
+The three general-purpose Map implementations are HashMap, TreeMap and LinkedHashMap. If you need SortedMap operations or key-ordered Collection-view iteration, use TreeMap; if you want maximum speed and don't care about iteration order, use HashMap; if you want near-HashMap performance and insertion-order iteration, use LinkedHashMap. 
+
+(LinkedHashMap provides two capabilities that are not available with LinkedHashSet. When you create a LinkedHashMap, you can order it based on key access rather than insertion. In other words, merely looking up the value associated with a key brings that key to the end of the map. Also, LinkedHashMap provides the removeEldestEntry method, which may be overridden to impose a policy for removing stale mappings automatically when new mappings are added to the map. This makes it very easy to implement a custom cache.)
+
+ConcurrentHashMap is a highly concurrent, high-performance implementation backed up by a hash table. This implementation never blocks when performing retrievals and allows the client to select the concurrency level for updates. It is intended as a drop-in replacement for Hashtable: in addition to implementing ConcurrentMap, it supports all the legacy methods peculiar to Hashtable. Again, if you don't need the legacy operations, be careful to manipulate it with the ConcurrentMap interface.
+
+
+
