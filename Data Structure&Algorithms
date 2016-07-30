@@ -1,0 +1,23 @@
+
+There is a standard notation for this idea, called "0-notation." Its basic parameter
+is n, the size of a problem instance, and the complexity or running time is
+expressed as a function of n. The "0" is for order, as in "Binary search is O(1ogn);
+it takes on the order of logn steps to search an array of n items."
+
+Notation Name
+O(1) constant
+O(1ogn) logarithmic
+O(n) linear
+O(n1ogn) nlogn
+0(n2) quadratic
+oh3) cubic
+O(2") exponential
+
+Example
+array index
+binary search
+string comparison
+quicksort
+simple sorting methods
+matrix multiplication
+set partitioning
