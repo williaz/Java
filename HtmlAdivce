@@ -70,7 +70,118 @@ diamonds and so on). It is better
 to use the CSS list-styletype
 property
 
+On larger websites it's a good idea to organize your code by placing the
+pages for each different section of the site into a new folder. Folders on a
+website are sometimes referred to as directories.
 
+If you are building a site from scratch, it is good
+practice to create a folder for all of the images
+the site uses.
+
+On a big site you might like to
+add subfolders inside the images
+folder. For example, images such
+as logos and buttons might sit in
+a folder called interface, product
+photographs might sit in a page
+called products, and images
+related to news might live in a
+folder called news.
+
+The text used in the alt attribute
+is often referred to as alt text.
+It should give an accurate
+description of the image content
+so it can be understood by
+screen reader software (used by
+people with visual impairments)
+and search engines.
+
+If the image is just to make a
+page look more attractive (and
+it has no meaning, such as a
+graphic dividing line), then the
+alt attribute should still be used
+but the quotes should be left
+empty.
+
+Use GIF or PNG format
+when saving images
+with few colors or large
+areas of the same color.
+
+Vector images differ from bitmap images and
+are resolution-independent. Vector images are
+commonly created in programs such as Adobe
+Illustrator.
+
+Some browsers automatically
+draw lines around the table
+and/or the individual cells.
+
+1. If users need to see all options
+at a glance, radio buttons are
+better suited.
+2. If there is a very long list
+of options (such as a list of
+countries), drop down list boxes
+work better.
+
+Unfortunately, the way that
+browsers have implemented this
+attribute is not perfect, and it
+should be tested throroughly if
+used (in particular in Firefox and
+Safari on a Mac).(multi sel box-size)
+
+It is a good idea to tell users if
+they can select more than one
+option at a time. It is also helpful
+to indicate that on a PC they
+should hold down the control key
+while selecting multiple options
+and on a Mac they should use
+the command key while selecting
+options.
+
+As a rule of thumb, here are the
+best places to place labels on
+form controls.
+Above or to the left:
+● Text inputs
+● Text areas
+● Select boxes
+● File uploads
+To the right:
+● Individual checkboxes
+● Individual radio buttons
+
+At the time of writing, only
+Chrome and Opera supported
+HTML5 validation, although other
+browsers are expected to follow.
+In order to support older browsers
+(that do not understand HTML5),
+web page authors are likely to
+continue using JavaScript to
+validate forms.
+
+HTML5 introduces new form
+controls to standardize the
+way that some information is
+gathered. Older browsers that
+do not recognize these inputs
+will just treat them as a single
+line text box.
+
+Recent browsers add some
+features that improve usability.
+For example, Safari on a Mac
+adds a cross to clear the search
+box when you have started to
+enter information. Safari also
+automatically rounds the corners
+on the search input field.
 
 
 
