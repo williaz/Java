@@ -183,6 +183,38 @@ enter information. Safari also
 automatically rounds the corners
 on the search input field.
 
+To reach as many browsers as
+possible, you should provide the
+video in the following formats:
+H264: IE and Safari
+WebM: Android, Chrome,
+Firefox, Opera
+
+(Due to a bug on the iPad, you
+should provide the MP4 video
+as the first format. Otherwise, it
+might not play.)
+
+If you start to work with HTML5
+video in depth, you can also:
+● Create your own playback
+controls
+● Provide different versions
+of the video for browsers
+that have different sized
+screens (so you can provide
+lower resolution content for
+handheld devices)
+● Tell different parts of a page
+to change when the video
+reaches a certain point
+
+support the Ogg
+Vorbis audio format (Firefox,
+Chrome, and Opera). For it to
+work in Safari 5 and IE 9, the
+audio would need to be in MP3
+format
 
 
 
